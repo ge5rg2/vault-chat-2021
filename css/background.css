@@ -5,20 +5,9 @@
   box-sizing: border-box;
   font-family: "Fira Mono", monospace;
   font-size: 20px;
-  height: 100vh;
   overflow: hidden;
+  height: 110vh;
   width: 100vw;
-}
-
-.screen:before {
-  animation: wave 10s infinite ease-in-out;
-  content: "";
-  height: 20vh;
-  left: 0;
-  opacity: 0.5;
-  position: absolute;
-  right: 0;
-  z-index: 4;
 }
 
 .screen:after {
@@ -62,6 +51,17 @@
   }
   100% {
     box-shadow: 0 -10vh 20vh #0c0;
-    top: 200vh;
+    top: 130vh;
   }
+}
+
+.screen:before {
+  animation: wave 10s infinite ease-in-out;
+  content: "";
+  height: 20vh;
+  left: 0;
+  opacity: 0.5;
+  position: absolute;
+  right: 0;
+  z-index: 4;
 }

@@ -1,5 +1,5 @@
 #chat-screen {
-  height: 500vh;
+  height: 110vh;
 }
 
 #chat-screen .alt-header1,
@@ -12,11 +12,14 @@
 
 #chat-screen .status-bar {
   z-index: 2;
+  background-color: #111;
+  border-bottom: 1px solid;
 }
 
 #chat-screen .alt-header1 {
   top: 20px;
   z-index: 1;
+  background-color: #111;
 }
 
 .alt-header1 {

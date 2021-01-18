@@ -22,7 +22,6 @@
 body {
   background-color: #000;
   margin: 0;
-  overflow: hidden;
   padding: 0;
   display: flex;
 }
