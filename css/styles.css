@@ -1,0 +1,32 @@
+@import "reset.css";
+@import "background.css";
+
+/* Components */
+@import "components/statusbar.css";
+@import "components/screenheader.css";
+@import "components/user-component.css";
+@import "components/nav.css";
+@import "components/badge.css";
+@import "components/icon-row.css";
+@import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
+
+/* Screens */
+@import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/condition.css";
+@import "screens/chat.css";
+
+body {
+  background-color: #000;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  display: flex;
+}
+
+.main-screen {
+  padding: 0px 25px;
+}

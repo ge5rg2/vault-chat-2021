@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Vault Chat</title>
+</head>
+<body>
+<main class="screen">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <i class="fas fa-moon"></i>
+            <span>21:40</span>
+        </div>
+        <div class="status-bar__column">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Mojave Express</span>
+        </div>
+        <div class="status-bar__column">
+            <i class="fas fa-radiation"></i>
+            <span>0.73μSv</span>
+        </div>
+    </div>
+    <div class="welcome-header">
+        <div class="welcome-header__title">
+            <span>Welcome to Vault Chat</span>
+        </div>
+        <div class="welcome-header__text">
+            <span>Please enter your resident vault number and password and press the login button.</span>
+        </div>
+    </div>
+    <form action="friends.html" method="GET" class="Login-form">
+        <input name="username" type="number" max="122" min="1" placeholder="Vault number" required/>
+        <input name="password" type="password" placeholder="Password" required/>
+        <input type="submit" value="Log In" />
+        <a href="#">Click here if you want to live in Vault</a>
+    </form>
+
+    
+    <div id="splash-screen-index">
+        <img src="https://media.pocketgamer.com/artwork/na-sofgxq/image.png"/>
+    </div>
+
+    <div id="no-mobile">
+        <p>Your Screen-Size Is Too Big</p>
+        <p>Please Adjust The Screen To 500X900 OR Less</p>
+    </div>
+</main>
+    <script src="https://kit.fontawesome.com/6b29387220.js" crossorigin="anonymous"></script>
+</body>
+</html>
